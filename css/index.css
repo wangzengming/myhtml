@@ -1,0 +1,149 @@
+.grid{
+	height: 470px;
+}
+/*侧边栏部分*/
+.grid-col1{
+	width: 190px;
+	height: 100%;
+	background-color: #6e6566;
+	color: #fff;
+	font-size: 14px;
+}
+.grid-col1 ul{
+	padding: 15px 0;
+}
+.grid-col1 ul li{
+	padding-left: 12px;
+	height: 28px;
+	line-height: 26px;
+}
+.grid-col1 ul li:hover{
+	background-color: #9c9698;
+}
+.grid-col1 ul li a{
+	color: #fff;
+	font-size: 14px;
+	margin: 0 3px;
+}
+.grid-col1 ul li a:hover{
+	color: #f10;
+}
+
+/*banner部分*/
+
+
+
+.grid-col2{
+	width: 790px;
+	height: 100%;
+	margin: 0 10px;
+}
+.grid-col2-l{
+	position: relative;
+	
+}
+	/*图片箭头部分*/
+.arrow-l,
+.arrow-r{
+	position: absolute;
+	top: 50%;
+	width: 30px;
+	height: 60px;
+	background:rgba(0,0,0,0.2);
+	transform:translateY(-50%);
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: normal;
+	color: rgba(255,255,255,0.5);
+}
+.arrow-r{ 
+	right: 0;
+}
+.circle{
+	position: absolute;
+	width: 175px;
+	height: 25px;
+	bottom: 20px;
+	left: 50%;
+	transform:translateX(-50%);
+	background: rgba(255,255,255,0.2);
+	border-radius: 10px;
+}
+.circle li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin: 5px 5px;
+	background: rgba(255,255,255,0.7);
+	cursor: pointer; 
+}
+.circle li:hover{
+	background: rgba(255,0,0,0.7);
+}
+.grid-col2-r-2 {
+    margin: 6px 0;
+}
+
+.grid-col3{
+	width: 190px;
+	height: 100%;
+}
+/*右边模块*/
+.login{
+	height:115px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px;
+	box-sizing: border-box;
+	position: relative;
+}
+.login-t {
+	width: 95px;
+	height: 60px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #666;
+	padding-left: 60px;
+	white-space: nowrap;/*强制一行显示*/
+	overflow: hidden;/*溢出隐藏*/
+	text-overflow: ellipsis;/*超出部分显示省略号*/
+}
+.login-t a{
+	color: #666;
+}
+.login-t a:hover{
+	color: #f10125;
+}
+.news{
+	height: 145px;
+	background-color: blue;
+	border-bottom:  1px solid #ccc;
+}
+.expand{
+	height: 207px;
+	background-color: skyblue;
+}
+.user-info{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 15px;
+	top: 15px;
+	border-radius: 50%;
+}
+.login-b a{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	border: 2px solid red;
+	margin-right: 3px;
+	line-height: 20px;
+	text-align: center;
+	color: #f10125;
+}
+.login-b a:hover{
+	background-color: #f10125;
+	color: #fff;
+}
