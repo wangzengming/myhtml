@@ -1,5 +1,6 @@
 .grid{
 	height: 470px;
+	
 }
 /*侧边栏部分*/
 .grid-col1{
@@ -8,6 +9,27 @@
 	background-color: #6e6566;
 	color: #fff;
 	font-size: 14px;
+	position: relative;
+}
+.bg{
+	width: 1920px;
+	height: 470px;
+	position: absolute;
+	top: 0;
+	left: -365px;
+	z-index:-1;
+}
+.ad-r {
+	width: 0;
+	position: absolute;
+	background: url(..images/ad.r.jpg);
+	z-index: 999;
+	top: 0;
+	left: 0;
+	animation: all 0.8s; 
+}
+.bg:hover .ad-r {
+	width: 990px;
 }
 .grid-col1 ul{
 	padding: 15px 0;
@@ -30,9 +52,6 @@
 }
 
 /*banner部分*/
-
-
-
 .grid-col2{
 	width: 790px;
 	height: 100%;
@@ -98,32 +117,7 @@
 	padding: 15px;
 	box-sizing: border-box;
 	position: relative;
-}
-.login-t {
-	width: 95px;
-	height: 60px;
-	line-height: 20px;
-	font-size: 12px;
-	color: #666;
-	padding-left: 60px;
-	white-space: nowrap;/*强制一行显示*/
-	overflow: hidden;/*溢出隐藏*/
-	text-overflow: ellipsis;/*超出部分显示省略号*/
-}
-.login-t a{
-	color: #666;
-}
-.login-t a:hover{
-	color: #f10125;
-}
-.news{
-	height: 145px;
-	background-color: blue;
-	border-bottom:  1px solid #ccc;
-}
-.expand{
-	height: 207px;
-	background-color: skyblue;
+	background-color: #fff;
 }
 .user-info{
 	position: absolute;
@@ -146,4 +140,87 @@
 .login-b a:hover{
 	background-color: #f10125;
 	color: #fff;
+}
+.login-t {
+	width: 95px;
+	height: 60px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #666;
+	padding-left: 60px;
+	white-space: nowrap;/*强制一行显示*/
+	overflow: hidden;/*溢出隐藏*/
+	text-overflow: ellipsis;/*超出部分显示省略号*/
+}
+.login-t a{
+	color: #666; 
+}
+.login-t a:hover{
+	color: #f10125;
+}
+/*新闻模块*/
+.news{
+	height: 145px;
+	border-bottom:  1px solid #ccc;
+	padding: 7px 13px 0;
+	box-sizing: border-box;
+	background-color: #fff;
+} 
+.news-t{
+	height: 19px;
+	border-bottom: 1px solid #d1d1d1;
+}
+.news-t a{
+	font-size: 13px;
+	color: #333;
+}
+.news-t a:hover{
+	color: #f10125;
+	border-bottom: #f10125;
+}
+.cuxiao{
+	width: 38px;
+	height: 17px;
+	line-height: 17px;
+	border-right: 1px solid #d1d1d1;
+}
+.gonggao{
+	padding-left: 10px;
+} 
+.news-b{
+	padding-left: 0px;
+}
+.news-b li{
+	height: 23px;
+	line-height: 23px;
+}
+.expand{
+	height: 210px;
+	background-color: #fff;
+}
+.expand ul{
+	width: 195px;
+}
+.expand li{
+	float: left;
+	width: 47px;
+	height: 69px;
+	border-right:1px solid #ccc; 
+	border-bottom:1px solid #ccc; 
+}
+.expand li:nth-child(4n){
+	border-right:0;
+}
+.expand li a{
+	display: block;
+	padding-top: 15px;
+	text-align: center;
+}
+.expand li i{
+	width: 20px;
+	height: 23px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: url(../images/iphone.png);
 }

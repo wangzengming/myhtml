@@ -73,7 +73,7 @@ i{
 	background-color: #E3E4E5;
 	font-size: 12px;
 	line-height: 30px;
-	color: #9999;
+	color: #999;
 }
 .city{
 	margin-left: 210px;
@@ -104,7 +104,6 @@ i{
 }
 .middle{
 	height: 140px;
-	
 	margin-top: 37px;
 	position: relative;
 }
@@ -150,7 +149,7 @@ i{
 	height: 35px;
 	background-color: #f10215;
 	font-size: 18px;
-	font-family: "icomoon",
+	font-family: "icomoon";
 }
 .form button i{
 	color: #ccc;
@@ -301,7 +300,7 @@ footer{
 	text-align: center;
 }
 .coverage p{
-	font-synthesis: 12px;
+	font-size: 12px;
 	line-height: 18px;
 	color: #666;
 	width: 180px;
